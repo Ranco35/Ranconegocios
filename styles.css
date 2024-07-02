@@ -8,14 +8,70 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #006699;
     color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    padding: 10px 20px;
 }
 
-header h1 {
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
     margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    background: url('https://images.unsplash.com/photo-1593642532973-d31b6557fa68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero span {
+    color: #FFD700;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .button:hover {
+    background-color: #e6c200;
 }
 
 main {
@@ -52,35 +108,4 @@ img {
     width: 100%;
     height: auto;
     margin: 10px 0;
-}
-
-#introduccion {
-    background-color: #eef7ff;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#beneficios {
-    background-color: #d6eaf8;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#servicios {
-    background-color: #aed6f1;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#eventos {
-    background-color: #aed6f1;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#contacto {
-    background-color: #5dade2;
-    padding: 20px;
-    border-radius: 10px;
-    color: #fff;
 }
