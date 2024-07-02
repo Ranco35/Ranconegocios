@@ -3,17 +3,21 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #006699;
+    background-color: #1f1f1f; /* Color de fondo del encabezado */
     color: #fff;
     padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 header .logo img {
@@ -34,17 +38,20 @@ header nav ul li {
 header nav ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
 
 header nav ul li a:hover {
-    text-decoration: underline;
+    background-color: #333;
 }
 
 .hero {
     text-align: center;
     background: url('https://images.unsplash.com/photo-1593642532973-d31b6557fa68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80') no-repeat center center/cover;
     color: #fff;
-    padding: 100px 20px;
+    padding: 150px 20px; /* Ajustar el padding para que se vea bien con el encabezado fijo */
+    margin-top: 70px; /* Espacio para el encabezado fijo */
 }
 
 .hero h1 {
@@ -76,26 +83,29 @@ header nav ul li a:hover {
 
 main {
     padding: 20px;
+    margin-top: 70px; /* Espacio para el encabezado fijo */
+    text-align: center; /* Centramos el texto en todas las secciones */
 }
 
 h2 {
-    color: #006699;
+    color: #FFD700;
 }
 
 ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 ul li {
-    background: #e4e4e4;
+    background: #333;
     margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
 }
 
 footer {
-    background-color: #006699;
+    background-color: #1f1f1f;
     color: #fff;
     text-align: center;
     padding: 10px 0;
