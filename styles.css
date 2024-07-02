@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #006699;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -38,7 +38,7 @@ main {
 }
 
 h2 {
-    color: #333;
+    color: #006699;
 }
 
 ul {
@@ -54,11 +54,42 @@ ul li {
 }
 
 footer {
-    background-color: #333;
+    background-color: #006699;
     color: #fff;
     text-align: center;
     padding: 10px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+#introduccion {
+    background-color: #eef7ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#beneficios {
+    background-color: #d6eaf8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#servicios {
+    background-color: #aed6f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#contacto {
+    background-color: #5dade2;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
 }
