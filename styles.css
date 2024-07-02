@@ -18,21 +18,6 @@ header h1 {
     margin: 0;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
 main {
     padding: 20px;
 }
@@ -82,6 +67,12 @@ img {
 }
 
 #servicios {
+    background-color: #aed6f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#eventos {
     background-color: #aed6f1;
     padding: 20px;
     border-radius: 10px;
